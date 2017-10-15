@@ -1,0 +1,31 @@
+{
+    "name": "jeffochoa/voyager-bread-generator",
+    "description": "Create BREAD from the console using artisan",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "tcg/voyager": "^1.0"
+    },
+    "require-dev": {
+        "laravel/laravel": "^5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Ochoa",
+            "email": "jeffer.8a@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "VoyagerBread\\": "src/"
+        }
+      },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "VoyagerBread\\BreadGeneratorServiceProvider"
+            ]
+        }
+      }
+}
