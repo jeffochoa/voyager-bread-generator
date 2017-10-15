@@ -1,5 +1,5 @@
 {
-    "name": "jeffochoa/voyager-bread-generator",
+    "name": "voyager-bread-generator",
     "description": "Create BREAD from the console using artisan",
     "type": "library",
     "version": "1.0.0",
@@ -22,11 +22,6 @@
         }
       },
       "extra": {
-        "laravel": {
-            "providers": [
-                "VoyagerBread\\BreadGeneratorServiceProvider"
-            ]
-        },
         "hook": {
           "providers": [
             "VoyagerBread\\BreadGeneratorServiceProvider"
