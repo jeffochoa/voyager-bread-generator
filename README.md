@@ -10,7 +10,10 @@ This allows the developers to create new BREADs from the command line using Arti
 ## How to use:
 
 ### create a new bread
+```bash
 php artisan voyager:bread books
+```
+
 You can also generate the model and migration files
 
 ```bash
