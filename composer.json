@@ -26,6 +26,11 @@
             "providers": [
                 "VoyagerBread\\BreadGeneratorServiceProvider"
             ]
+        },
+        "hook": {
+          "providers": [
+            "VoyagerBread\\BreadGeneratorServiceProvider"
+          ]
         }
       }
 }
