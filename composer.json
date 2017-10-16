@@ -26,6 +26,11 @@
           "providers": [
             "VoyagerBread\\BreadGeneratorServiceProvider"
           ]
+        },
+        "laravel": {
+            "providers": [
+                "VoyagerBread\\BreadGeneratorServiceProvider"
+            ]
         }
       }
 }
