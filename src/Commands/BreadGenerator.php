@@ -139,6 +139,6 @@ class BreadGenerator extends GeneratorCommand
      */
     protected function getStub()
     {
-        return base_path('vendor/jeffochoa/voyager-bread-generator/src/stubs/bread.stub');
+        return base_path('vendor/voyager-bread-generator/src/stubs/bread.stub');
     }
 }
