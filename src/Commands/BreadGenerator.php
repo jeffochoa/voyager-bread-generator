@@ -67,7 +67,7 @@ class BreadGenerator extends GeneratorCommand
      */
     public function replacePlaceholders(&$stub)
     {
-        $name = $this->argument('name');
+        $name = Str::singular($this->argument('name'));
         $replacements = collect([
             'DummyStudlyCaseSingular' => Str::studly($name),
             'DummyStudlyCasePlural' => Str::plural(Str::studly($name)),
