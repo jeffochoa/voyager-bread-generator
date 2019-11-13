@@ -101,7 +101,7 @@ class BreadGenerator extends GeneratorCommand
      */
     protected function getNameInput()
     {
-        return trim(studly_case($this->argument('name')));
+        return trim(Str::studly($this->argument('name')));
     }
 
     /**
@@ -126,7 +126,7 @@ class BreadGenerator extends GeneratorCommand
      */
     protected function createModel()
     {
-        $table = studly_case($this->argument('name'));
+        $table = Str::studly($this->argument('name'));
         $this->call('make:model', [
             'name' => $table
         ]);
